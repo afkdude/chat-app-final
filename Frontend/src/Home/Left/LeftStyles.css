@@ -1,0 +1,18 @@
+.user-display:hover{
+  background-color: #E3F0AF;
+  cursor: pointer;
+
+}
+.user-display:active{
+  background-color: white;
+  
+}
+
+.users-parent{
+
+  overflow:scroll;
+  overflow-x: hidden;
+   scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #5DB996 #f0f0f0; /* thumb and track colors */
+ 
+}

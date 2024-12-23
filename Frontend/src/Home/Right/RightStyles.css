@@ -1,0 +1,26 @@
+.message-area {
+  background: rgb(248, 255, 174);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 255, 174, 1) 1%,
+    rgba(67, 198, 172, 1) 100%
+  );
+  overflow-y: auto;
+
+
+}
+.message-area::-webkit-scrollbar{
+  display: none;
+}
+
+
+.other-chat {
+  background-color: #fbf6e9;
+  max-width: 500px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.self-chat {
+  max-width: 500px;
+}
